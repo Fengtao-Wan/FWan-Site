@@ -8,8 +8,9 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "Fengtao Wan",
+    //pageTitleSuffix: "Fengtao Wan",
+    pageSource: '/Users/fengtao/Dropbox/Fengtao Obs/Fengtao Site',
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -24,7 +25,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        body: "Crimson Pro",
         code: "IBM Plex Mono",
       },
       colors: {

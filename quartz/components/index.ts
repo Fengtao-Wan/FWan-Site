@@ -10,7 +10,7 @@ import PageTitle from "./PageTitle"
 import ContentMeta from "./ContentMeta"
 import Spacer from "./Spacer"
 import TableOfContents from "./TableOfContents"
-import Explorer from "./Explorer"
+//import Explorer from "./Explorer"
 import TagList from "./TagList"
 import Graph from "./Graph"
 import Backlinks from "./Backlinks"
@@ -23,6 +23,8 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
+import ProfileImage from "./ProfileImage" 
+import SideNav from "./SideNav"
 
 export {
   ArticleTitle,
@@ -36,7 +38,7 @@ export {
   ContentMeta,
   Spacer,
   TableOfContents,
-  Explorer,
+ // Explorer,
   TagList,
   Graph,
   Backlinks,
@@ -50,4 +52,7 @@ export {
   Comments,
   Flex,
   ConditionalRender,
+  ProfileImage,
+  SideNav
 }
+

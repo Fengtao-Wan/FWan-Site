@@ -13,3 +13,5 @@ interface CustomEventMap {
 
 type ContentIndex = Record<FullSlug, ContentDetails>
 declare const fetchData: Promise<ContentIndex>
+
+export { default as ProfileImage } from "./ProfileImage"
