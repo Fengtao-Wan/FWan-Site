@@ -4,27 +4,26 @@ import { classNames } from "../util/lang"
 const SideNav: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
   return (
     <div class={classNames(displayClass, "side-nav")}>
-      {/* "Menu" Title Removed */}
       
       <ul style={{ listStyle: "none", padding: 0, margin: "2rem 0 0 0" }}>
         
-        {/* LINK 1: Research */}
+        {/* LINK 1: Research 
+            Fix: Add "/FWan-Site" prefix and use lowercase "/research" 
+        */}
         <li style={{ marginBottom: "0.5rem" }}>
-          <a href="/Research" style={{ color: "var(--secondary)", textDecoration: "none" }}>
+          <a href="/FWan-Site/content/research" style={{ color: "var(--secondary)", textDecoration: "none" }}>
             Research
           </a>
         </li>
 
-
-        {/* LINK 3: CV */}
+        {/* LINK 2: CV 
+            Fix: Add "/FWan-Site" prefix and use lowercase "/cv" 
+        */}
         <li style={{ marginBottom: "0.5rem" }}>
-          <a href="/CV" style={{ color: "var(--secondary)", textDecoration: "none" }}>
+          <a href="/FWan-Site/content/CV" style={{ color: "var(--secondary)", textDecoration: "none" }}>
             CV
           </a>
         </li>
-    
-
-
 
       </ul>
     </div>
@@ -32,5 +31,3 @@ const SideNav: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
 }
 
 export default (() => SideNav) satisfies QuartzComponentConstructor
-
-//note Resource and Misc are commmented out.
