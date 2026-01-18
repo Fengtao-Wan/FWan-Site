@@ -7,20 +7,18 @@ const SideNav: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
       
       <ul style={{ listStyle: "none", padding: 0, margin: "2rem 0 0 0" }}>
         
-        {/* LINK 1: Research 
-            Fix: Add "/FWan-Site" prefix and use lowercase "/research" 
-        */}
+        {/* LINK 1: Research */}
         <li style={{ marginBottom: "0.5rem" }}>
-          <a href="/FWan-Site/content/research" style={{ color: "var(--secondary)", textDecoration: "none" }}>
+          {/* REMOVED "/content" and kept lowercase */}
+          <a href="/FWan-Site/research" style={{ color: "var(--secondary)", textDecoration: "none" }}>
             Research
           </a>
         </li>
 
-        {/* LINK 2: CV 
-            Fix: Add "/FWan-Site" prefix and use lowercase "/cv" 
-        */}
+        {/* LINK 2: CV */}
         <li style={{ marginBottom: "0.5rem" }}>
-          <a href="/FWan-Site/content/CV" style={{ color: "var(--secondary)", textDecoration: "none" }}>
+          {/* REMOVED "/content" and changed "CV" to "cv" */}
+          <a href="/FWan-Site/cv" style={{ color: "var(--secondary)", textDecoration: "none" }}>
             CV
           </a>
         </li>
