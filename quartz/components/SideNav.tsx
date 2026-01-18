@@ -15,19 +15,16 @@ const SideNav: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
           </a>
         </li>
 
-        {/* LINK 2: Archives */}
-        <li style={{ marginBottom: "0.5rem" }}>
-          <a href="/Archives" style={{ color: "var(--secondary)", textDecoration: "none" }}>
-            Resources
-          </a>
-        </li>
 
-        {/* LINK 3: Miscs */}
+        {/* LINK 3: CV */}
         <li style={{ marginBottom: "0.5rem" }}>
-          <a href="/Misc" style={{ color: "var(--secondary)", textDecoration: "none" }}>
-            Misc
+          <a href="/CV" style={{ color: "var(--secondary)", textDecoration: "none" }}>
+            CV
           </a>
         </li>
+    
+
+
 
       </ul>
     </div>
@@ -35,3 +32,5 @@ const SideNav: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
 }
 
 export default (() => SideNav) satisfies QuartzComponentConstructor
+
+//note Resource and Misc are commmented out.

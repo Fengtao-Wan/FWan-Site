@@ -4,8 +4,8 @@ import { classNames } from "../util/lang"
 const ProfileImage: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
   return (
     <div class={classNames(displayClass, "profile-image")}>
-      <img src="/me.jpg" alt="My Profile Photo" />
-
+      {/* Use the Raw URL here. Make sure 'Me.jpg' matches the file exactly! */}
+      <img src="https://raw.githubusercontent.com/Fengtao-Wan/FWan-Site/v4/content/Me.jpg" alt="My Profile Photo" />
     </div>
   )
 }
