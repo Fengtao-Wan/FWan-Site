@@ -30,7 +30,7 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.SideNav(),
+    // Component.SideNav(),
     // This entire block is commented out because both Search and Darkmode are gone
     // Component.Flex({
     //   components: [
